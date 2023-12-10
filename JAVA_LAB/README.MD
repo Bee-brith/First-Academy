@@ -9,4 +9,4 @@ Upon execution, the program provides a welcoming message and prompts the user to
 The program then processes this information and displays the GPA result in a clear and organized tabular format.
 
 
-# PS: This project is opened to contributions as i am a newbie to this programming language.
+PS: This project is opened to contributions as i am a newbie to this programming language.
