@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  .text_class {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  body {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .image_gallery {
+    display: flex;
+    flex-direction: column;
+    background: url(../Snapshot/1.jpg) no-repeat;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    opacity: 1.0;
+    height: 50vh;
+    padding: 2rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h5 {
+    font-size: 1.0rem;
+    cursor: pointer;
+  }
+
+  header h5:hover {
+    background-color: grey;
+  }
+  
+  header button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 100%, 50%);
+    border-radius: 13px;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: hsl(0, 73%, 37%);
+  }
+  
+  .image_gallery div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+    /* background-color: hsl(0, 73%, 37%); */
+    width: 45%;
+    margin-top: 2rem;
+    padding-block: 1rem;
+  }
+  
+  h1 {
+    text-align: start;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+  }
+  
+  .image_gallery div p {
+    font-weight: 500;
+    margin-bottom: 1.0rem;
+    text-align: justify;
+  }
+  
+  .image_gallery div button {
+    display: flex;
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: 0.8rem;
+    border-radius: 15px;
+    background-color: hsl(197, 100%, 50%);
+    padding: 0.4rem 0.8rem;
+    border: none;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  .image_gallery div button:hover {
+    background-color: hsl(197, 68%, 33%)
+  }
+  
+  .gallery_details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .gallery_details h2 {
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 2rem;
+    margin-block: 1rem;
+  }
+  
+  .gallery_details .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gallery_details .btn p:nth-child(1) {
+    background-color: hsl(197, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .gallery_details p {
+    color: hsl(195, 53%, 79%);
+    border: 1px solid hsl(195, 53%, 79%);
+    border-radius: 15px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+  }
+  
+  .gallery_details p:hover,
+  .gallery_details .btn p:nth-child(1):hover {
+    background-color: hsl(195, 49%, 52%);
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .gallery_pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery_pics div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .gallery_pics div img {
+    width: 20%;
+  }
+  
+  .gallery_pics2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .move_image-up {
+    margin-top: -0.9rem;
+  }
+  
+  .move_image {
+    margin-top: -3rem;
+  }
